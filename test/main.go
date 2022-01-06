@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/lazytiger/unityai"
-	"github.com/lazytiger/unityai/format"
+	"github.com/tofuhua/unityai"
+	"github.com/tofuhua/unityai/format"
 )
 
 func main() {

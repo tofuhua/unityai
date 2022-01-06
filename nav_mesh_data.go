@@ -1,7 +1,7 @@
 package unityai
 
 import (
-	"github.com/lazytiger/unityai/format"
+	"github.com/tofuhua/unityai/format"
 )
 
 type NavMeshData struct {

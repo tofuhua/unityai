@@ -215,7 +215,6 @@ func LoadNavMeshSceneDataFromJsonFile(file string) (*AddtionalJosnData, error) {
 	return &data, nil
 }
 
-
 func readLine(reader *bufio.Reader, match *regexp.Regexp, tab int) (fieldName, fieldValue, fieldType string, err error) {
 	var head []byte
 	head, err = reader.Peek(tab + 1)

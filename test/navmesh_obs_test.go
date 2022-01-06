@@ -1,8 +1,6 @@
 package main_test
 
 import (
-	"github.com/lazytiger/unityai"
-	"github.com/lazytiger/unityai/format"
 	"encoding/gob"
 	"math"
 	"math/rand"
@@ -11,6 +9,9 @@ import (
 	"strings"
 	"testing"
 	"time"
+
+	"github.com/tofuhua/unityai"
+	"github.com/tofuhua/unityai/format"
 )
 
 func Test_DynamicObstacle1(t *testing.T) {
@@ -41,7 +42,7 @@ func Test_DynamicObstacle1(t *testing.T) {
 		}
 
 		pos := hit.GetPosition()
-		rotation := unityai.NewVector3f(rand.Float32(), rand.Float32() ,rand.Float32()).Mulf(180)
+		rotation := unityai.NewVector3f(rand.Float32(), rand.Float32(), rand.Float32()).Mulf(180)
 		scale := unityai.NewVector3f(rand.Float32(), rand.Float32(), rand.Float32()).Mulf(10)
 		size := unityai.NewVector3f(rand.Float32(), rand.Float32(), rand.Float32()).Mulf(10)
 
@@ -120,7 +121,7 @@ func Test_Remove(t *testing.T) {
 	}
 
 	surfaceId := manager.GetSurfaceId()
-	for i :=0; i< manager.GetMaxTileIndex();i++ {
+	for i := 0; i < manager.GetMaxTileIndex(); i++ {
 		manager.RemoveTile(surfaceId, int32(i))
 		manager.RestoreTile(surfaceId, int32(i))
 	}

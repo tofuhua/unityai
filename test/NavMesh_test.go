@@ -6,8 +6,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/lazytiger/unityai"
-	"github.com/lazytiger/unityai/format"
+	"github.com/tofuhua/unityai"
+	"github.com/tofuhua/unityai/format"
 )
 
 func Test_SamplePosition(t *testing.T) {

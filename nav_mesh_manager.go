@@ -6,7 +6,7 @@ import (
 	"math/rand"
 	"unsafe"
 
-	"github.com/lazytiger/unityai/format"
+	"github.com/tofuhua/unityai/format"
 )
 
 const kNodePoolSize int32 = 4096

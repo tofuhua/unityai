@@ -5,8 +5,8 @@ import (
 	"encoding/gob"
 	"testing"
 
-	"github.com/lazytiger/unityai"
-	"github.com/lazytiger/unityai/format"
+	"github.com/tofuhua/unityai"
+	"github.com/tofuhua/unityai/format"
 )
 
 func BenchmarkLoading(b *testing.B) {

@@ -9,3 +9,9 @@ your game server, if you are using Unity NavMesh in client.
 The API is reserved as Unity NavMesh, so it should be convenient to use if you
 are familiar with Unity NavMesh API or RecastDetour. If you are not, you may want
 to read some examples in test folder.
+
+Thanks
+
+fork from https://github.com/lazytiger/unityai
+
+only add go mod
